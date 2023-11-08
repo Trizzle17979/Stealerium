@@ -23,7 +23,7 @@ internal sealed class Discord
             AnsiConsole.WriteLine("Discord >> Invalid Webhook:\n");
         }
 
-        return false;
+        return true;
     }
 
     public static async Task<bool> SendMessageAsync(string text, string? token)
